@@ -18,10 +18,17 @@
 Attention : Le class "visible" n'est à écrire que sur la toute première page, mettre juste "cd-section" pour les autres.
 -->
 
-		<?php 
+<?php
+//Include_once de Lisa
+	include_once "_INC/illustration1.php";
+	include_once "_INC/preambule.php";
+	include_once "_INC/illustration2.php";
+	include_once "_INC/article1-2-3.php";
+	include_once "_INC/article4-5-6.php";
+	include_once "_INC/illustration3.php";
+//
 
-
-		?>
+?>
 
 	<script src="js/app.js"></script>
 	</body>
