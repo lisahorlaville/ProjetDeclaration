@@ -23,6 +23,6 @@ Attention : Le class "visible" n'est à écrire que sur la toute première page,
 
 		?>
 
-
+	<script src="js/app.js"></script>
 	</body>
 </html>
