@@ -7,7 +7,7 @@
 		<link rel="stylesheet" href="css/style.css">
 	</head>
 	<body data-hijacking="on" data-animation="scaleDown" class='declaration'>
-<!-- Mettre ici en import les différents articles à la suite, avec dedans :
+<!-- Mettre ici en import (include_once('_INC/fichier.php');    ) les différents articles à la suite, avec dedans :
 
 	<section class="cd-section visible">
 		<div>
