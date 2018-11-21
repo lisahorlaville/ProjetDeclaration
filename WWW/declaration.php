@@ -7,21 +7,16 @@
 		<link rel="stylesheet" href="css/style.css">
 	</head>
 	<body data-hijacking="on" data-animation="scaleDown" class='declaration'>
-<!-- Mettre ici en import (include_once('_INC/fichier.php');    ) les différents articles à la suite, avec dedans :
+	
+	<?php
+include_once('_INC/article7-8.php');
+include_once('_INC/article9-10-11.php');
+include_once('_INC/article12-13-14.php');
+include_once('_INC/article15-16.php');
+include_once('_INC/article17-18.php');
+include_once('_INC/article19-20-21.php');
+	?>
 
-	<section class="cd-section visible">
-		<div>
-			LE CONTENU
-		</div>
-	</section>
-
-Attention : Le class "visible" n'est à écrire que sur la toute première page, mettre juste "cd-section" pour les autres.
--->
-
-		<?php 
-
-
-		?>
 
 	<script src="js/app.js"></script>
 	</body>

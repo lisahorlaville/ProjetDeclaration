@@ -1,5 +1,5 @@
 <section class="cd-section article17-18">
-<div>
+<div class='cd-section-div'>
 
 <div class=article17>
 	<h2>Art. 17</h2>
