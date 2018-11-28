@@ -18,7 +18,14 @@
 Attention : Le class "visible" n'est à écrire que sur la toute première page, mettre juste "cd-section" pour les autres.
  -->
 
-//
+ 	<?php
+include_once('_INC/preambule.php');
+// Mets tes articles ici
+include_once('_INC/article12-13-14.php');
+include_once('_INC/article15-16.php');
+include_once('_INC/article17-18.php');
+include_once('_INC/article19-20-21.php');
+	?>
 
 
 
