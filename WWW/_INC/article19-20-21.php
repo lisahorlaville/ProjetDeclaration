@@ -24,7 +24,7 @@
 		<br/><br/>
 		<stronger>2.</stronger> Toute personne a droit à accéder, dans des conditions d'égalité, aux fonctions publiques de son pays.
 		<br/><br/>
-		<stronger>3.</stronger> La volonté du peuple est le fondement de l'autorité des pouvoirs publics ; cette volonté doit s'exprimer par des élections honnêtes qui doivent avoir lieu périodiquement, au suffrage universel égal et au vote secret ou suivant une procédure équivalente assurant la liberté du vote. 
+		<stronger>3.</stronger> La volonté du peuple est le fondement de l'autorité des pouvoirs publics ; cette volonté doit s'exprimer par des élections honnêtes qui doivent avoir lieu périodiquement, au suffrage universel égal et au vote secret ou suivant une procédure équivalente assurant la liberté du vote.
 	</p>
 </div>
 
