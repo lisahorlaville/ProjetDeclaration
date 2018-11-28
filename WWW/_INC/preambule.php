@@ -1,4 +1,4 @@
-<section class="cd-section visible preambule">
+<section class="cd-section preambule">
 <div class='cd-section-div'>
 <div class="Preambule">
 <h2>Préambule</h2>
