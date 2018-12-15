@@ -1,3 +1,35 @@
-.article7-8 {
-h2 { color: white; }
+// ANIMATIONS
+@keyframes  bulle {
+	from {
+		width: 500px;
+		height: 500px;
+		top: -250px;
+		left: -250px;
+	}
+	to {
+		width: 1500px;
+		height: 1500px;
+		top: 300px;
+		left: 1500px;
+	}
+}
+
+// STYLE
+.article7-8 .cd-section-div {
+	overflow: hidden;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 50vh;
+	grid-gap: 8em;
+	justify-content: center;
+	align-content: center;
+	.article7, .article8 { width: 20vw; }
+	.article7 {
+		text-align: right;
+		justify-self: end;
+	}
+	.article8 {
+		align-self: end;
+	}
+	
 }
