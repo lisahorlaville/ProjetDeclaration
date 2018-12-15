@@ -7,7 +7,9 @@
 		<link rel="stylesheet" href="css/style.css">
 	</head>
 	<body>
-
+<?php
+	include_once "_INC/illustration_accueil.php";
+?>
 		
 	</body>
 </html>
