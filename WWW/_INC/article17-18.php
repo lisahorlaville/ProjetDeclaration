@@ -17,5 +17,9 @@
 	</p>
 </div>
 
+<div class='bulle2'></div>
+<div class='bulle3'></div>
+<div class='bulle'></div>
+
 </div>
 </section>

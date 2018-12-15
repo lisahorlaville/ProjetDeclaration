@@ -19,6 +19,95 @@ body {
 
 /* ------- declaration.php */
 
+// ANIMATIONS
+@keyframes  bulle {
+	from {
+		width: 500px;
+		height: 500px;
+		top: -250px;
+		left: -250px;
+	}
+	to {
+		width: 1500px;
+		height: 1500px;
+		top: 300px;
+		left: 1500px;
+	}
+}
+@keyframes  bulle1 {
+	from {
+		width: 100px;
+		height: 100px;
+		top: 80px;
+		left: 120px;
+	}
+	to {
+		width: 500px;
+		height: 500px;
+		top: -300px;
+		left: 800px;
+	}
+}
+@keyframes  bulle2 {
+	from {
+		width: 250px;
+		height: 250px;
+		top: 500px;
+		left: 900px;
+	}
+	to {
+		width: 1000px;
+		height: 1000px;
+		top: -300px;
+		left: -500px;
+	}
+}
+@keyframes  bulle3 {
+	from {
+		width: 800px;
+		height: 800px;
+		top: 600px;
+		right: 120px;
+	}
+	to {
+		width: 200px;
+		height: 200px;
+		top: -50px;
+		right: 1200px;
+	}
+}
+// BULLES
+.bulle {
+	border-radius: 50%;
+	position: absolute;
+	background-color: white;
+	z-index: -1;
+	animation: bulle 100s ease-in-out 0.5s forwards;
+}
+.bulle1 {
+	opacity: 0.5;
+	border-radius: 50%;
+	position: absolute;
+	background-color: white;
+	z-index: -1;
+	animation: bulle1 100s ease-in-out 0.5s forwards;
+}
+.bulle2 {
+	border-radius: 50%;
+	position: absolute;
+	background-color: white;
+	z-index: -1;
+	animation: bulle2 100s ease-in-out 0.5s forwards;
+}
+.bulle3 {
+	opacity: 0.5;
+	border-radius: 50%;
+	position: absolute;
+	background-color: white;
+	z-index: -1;
+	animation: bulle3 100s ease-in-out 0.5s forwards;
+}
+
 .declaration{
 	background-color: black;
 	-webkit-font-smoothing: antialiased;
@@ -41,6 +130,7 @@ body {
 
 .declaration {
 	.cd-section-div {
+		overflow: hidden;
 		height: 100vh;
 		background-color: #f6d856;
 	}

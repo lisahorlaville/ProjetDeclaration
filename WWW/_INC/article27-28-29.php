@@ -28,5 +28,8 @@
 	</p>
 </div>
 
+<div class='bulle'></div>
+<div class='bulle2'></div>
+
 </div>
 </section>
