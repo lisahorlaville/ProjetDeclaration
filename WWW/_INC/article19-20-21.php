@@ -22,11 +22,14 @@
 	<p>
 		<strong>1.</strong> Toute personne a le droit de prendre part à la direction des affaires publiques de son pays, soit directement, soit par l'intermédiaire de représentants librement choisis.
 		<br/><br/>
-		<stronger>2.</stronger> Toute personne a droit à accéder, dans des conditions d'égalité, aux fonctions publiques de son pays.
+		<strong>2.</strong> Toute personne a droit à accéder, dans des conditions d'égalité, aux fonctions publiques de son pays.
 		<br/><br/>
-		<stronger>3.</stronger> La volonté du peuple est le fondement de l'autorité des pouvoirs publics ; cette volonté doit s'exprimer par des élections honnêtes qui doivent avoir lieu périodiquement, au suffrage universel égal et au vote secret ou suivant une procédure équivalente assurant la liberté du vote.
+		<strong>3.</strong> La volonté du peuple est le fondement de l'autorité des pouvoirs publics ; cette volonté doit s'exprimer par des élections honnêtes qui doivent avoir lieu périodiquement, au suffrage universel égal et au vote secret ou suivant une procédure équivalente assurant la liberté du vote. 
 	</p>
 </div>
+
+<div class='bulle1'><p> </p></div>
+<div class='bulle3'><p> </p></div>
 
 </div>
 </section>

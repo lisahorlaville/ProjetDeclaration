@@ -1,0 +1,172 @@
+@font-face {
+font-family: 'bebas';
+src: url('BebasNeue-Regular.ttf');
+}
+
+
+.article22, .article23, .article24, .article25, .article26, .article27, .article28, .article29, .article 30 {
+	h2{
+		text-align:center;
+	}
+}
+
+.cd-section-div {
+	
+	.article22{
+		padding-left:5em;
+	}
+	.article24{
+		padding-right:5em;
+	}
+}
+
+.article25-26{
+	.cd-section-div {	
+		display:grid;
+		grid-template-columns:repeat(2,auto);
+		justify-content:center;
+		align-content:center;
+		grid-gap:10em;
+		
+		.article25, .article26{
+			width:30vw;
+		}
+		.article25{
+			justify-self:end;
+		}
+		.article26{
+			justify-self:start;
+		}
+	}
+}
+
+.article22-23-24, .article27-28-29 {
+	.cd-section-div {	
+		display:grid;
+		grid-template-columns:repeat(3,auto);
+		align-items:center;
+		grid-gap:10em;
+
+		.article27{
+		padding-left:5em;
+		}
+		.article29{
+			padding-right:5em;
+		}
+	}
+}
+
+.article-trente{
+	.cd-section-div {
+		display:grid;
+		align-items:center;
+		justify-items:center;
+		.article30 {
+			width:40%;
+		}
+	}
+}
+
+
+.illustration6, .illustration7{
+	.cd-section-div{
+		fill:#fff;
+		display:grid;
+		justify-items:center;
+		align-items:center;
+	}
+	svg {
+		height: 80%;
+		width: auto;
+	}
+}
+
+
+
+
+/*-----------------------------------------------*/
+/*ACCUEIL*/
+
+body{
+	background-color: #f6d856;
+	display:grid;
+	justify-items:center;
+	align-content:center;
+	row-gap:2em;
+}
+
+
+.illustration_accueil{
+	div{
+		align-self:center;
+		svg{
+			height:75vh;
+			width:auto;
+		}
+	}
+}
+
+
+$color: #111;
+$primary: #FFAB9D;
+
+.decouvrir{
+	
+	font-family: Georgia, serif;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+.cta{
+  position: relative;
+  margin: auto;
+  padding: 19px 22px;
+  transition: all .2s ease;
+  &:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    border-radius: 28px;
+    background: rgba(#fff,.5);
+    width: 56px;
+    height: 56px;
+    transition: all .3s ease;
+   }
+  span{
+    position: relative;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 900;
+    letter-spacing: .25em;
+    text-transform: uppercase;
+    vertical-align: middle;
+   }
+  svg{
+    position: relative;
+    top: 0;
+    margin-left: 10px;
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke: $color;
+    stroke-width: 2;
+    transform: translateX(-5px);
+    transition: all .3s ease;
+     }
+  &:hover{
+    &:before{
+      width: 100%;
+      background: rgba(#fff,1);
+     }
+    svg{
+      transform: translateX(0);
+    }
+    }
+  &:active{
+    transform: scale(.96);
+    }
+}

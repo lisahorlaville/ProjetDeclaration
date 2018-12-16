@@ -18,9 +18,13 @@ Nul ne sera soumis à la torture, ni à des peines ou traitements cruels, inhuma
 <div class="article6">
 <h2>Art. 6</h2>
 <p>
-Chacun a le droit à la reconnaissance en tous lieux de sa personnalité juridique. 
+Chacun a le droit à la reconnaissance en tous lieux de sa personnalité juridique.
 </p>
 </div>
+
+<div class='bulle2'></div>
+<div class='bulle3'></div>
+<div class='bulle'></div>
 
 </div>
 </section>
