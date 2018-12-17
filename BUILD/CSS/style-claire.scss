@@ -3,6 +3,7 @@ font-family: 'bebas';
 src: url('BebasNeue-Regular.ttf');
 }
 
+@media screen and (min-width:1050px) {
 
 .article22, .article23, .article24, .article25, .article26, .article27, .article28, .article29, .article 30 {
 	h2{
@@ -81,7 +82,7 @@ src: url('BebasNeue-Regular.ttf');
 	}
 }
 
-
+}
 
 
 /*-----------------------------------------------*/
@@ -301,5 +302,40 @@ a{
 		}
 	}
 	
+
+}
+
+
+
+
+/*-------------------------------------------------------*/
+/*MEDIA QUERIES*/
+
+@media screen and (max-width:1050px){
+	*{
+		margin:0;
+		padding:0;
+	}
+
+	body.declaration{
+		background-color: #f6d856;
+	}
+
+	.bulle1, .bulle2, .bulle, .bulle3, .consigne{
+		display:none;
+	}
+
+	.illustration1, .illustration2, .illustration3, .illustration4, .illustration5, .preambule, .mention_legale{
+		padding: 20px 40px;
+		height:80%;
+		width:auto;
+		fill:white;
+		display:grid;
+		align-self:center;
+	}
+
+	.preambule,.article1,.article2,.article3,.article4 ,.article5,.article6,.article7,.article8,.article9,.article10,.article11,.article12,.article13,.article14,.article15,.article16,.article17,.article18,.article19,.article20,.article21,.article22,.article23,.article24,.article25,.article26,.article27,.article28.article29.article30 {
+
+	}
 
 }
