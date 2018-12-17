@@ -3,7 +3,6 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>DUDH | Accueil</title>
-		<link rel="icon" type="image/png" href="favicon.png" />
 		<link rel="stylesheet" href="css/style.css">
 	</head>
 	<body>
@@ -21,5 +20,8 @@
 	  </svg>
 	</a>
 </div>
+
+<a class="credits" href="credits.php">Mentions légales</a>
+
 	</body>
 </html>
