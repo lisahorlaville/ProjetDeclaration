@@ -17,6 +17,25 @@
 Attention : Le class "visible" n'est à écrire que sur la toute première page, mettre juste "cd-section" pour les autres.
  -->
 
+ 	<div class="consigne">
+ 		<h1>Consigne de lecture <br/>
+ 		de la Déclaration des Droits de l'Homme</h1>
+ 		<div class="fleche_content">
+	 		<div class="fleche_icons">
+	 			<?php
+	 				include_once("_INC/fleche_haut.php");
+	 			?>
+	 		</div>
+	 		<div class="fleche"> <h3>Flèche du haut</h3><p>Permet de revenir à la page précèdente</p></div>
+	 		<div class="fleche_icons">
+	 			<?php
+	 				include_once("_INC/fleche_bas.php");
+	 			?>
+	 		</div>
+	 		<div class="fleche"> <h3>Flèche du bas</h3><p>Permet d'aller à la page suivante</p></div></div>
+ 		</div>
+ 	</div>
+
  	<?php
 	include_once ("_INC/illustration1.php");
 	include_once ("_INC/preambule.php");
@@ -43,11 +62,6 @@ Attention : Le class "visible" n'est à écrire que sur la toute première page,
 	?>
 
 	<a class="credits" href="credits.php">Mentions légales</a>
-
-<?php
-	//include_once "_INC/illustration6.php";
-	//include_once "_INC/illustration7.php";
-?>
 	<script src="js/app.js"></script>
 	</body>
 </html>
