@@ -170,3 +170,97 @@ a{
     transform: scale(.96);
     }
 }
+
+
+
+
+
+
+
+
+/*-----------------------------------------------------------------*/
+/*MODE D'EMPLOIS*/
+
+
+
+.consigne{
+	animation: decalage 2s ease-in-out 2s forwards;
+	position:fixed;
+	width:500px;
+	padding-left: 40px;
+	height:82vh;
+	background-color:#fff;
+	z-index:2;
+	display:grid;
+	justify-content:center;
+	top:4vw;
+	left: -40px;
+	border-radius: 30px;
+
+	&:hover{
+		animation: hover 0.1s 2s;
+		left: -40px;
+	}
+
+	h1{
+		padding-top:5vh;
+		text-align:center;
+		text-transform:uppercase;
+	}
+
+	.croix{
+		position:absolute;
+		right:0;
+		width:60px;
+		height:auto;
+		padding:8px 2px;
+
+		
+	}
+
+
+	.fleche_content{
+		display:grid;
+		grid-template-columns: 150px 300px;
+		grid-template-rows:repeat(2, 1fr);
+		justify-content:center;
+		align-content:center;
+
+		.fleche_icons{
+			justify-self:center;
+			svg{
+				height:100px;
+				width:auto;
+			}
+		}
+
+		.fleche{
+			h3{
+				text-transform:uppercase;
+			}
+		}
+	
+	}
+
+}
+
+@keyframes decalage {
+	0%{
+		left: -40px;
+	}
+	70%{
+		left: -40px;
+	}
+	100%{
+		left: -500px;
+	}
+}
+
+@keyframes hover {
+	from {
+		left: -500px;
+	}
+	to {
+		left: -10px;
+	}
+}
