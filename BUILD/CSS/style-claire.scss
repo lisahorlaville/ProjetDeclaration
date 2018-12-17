@@ -108,7 +108,6 @@ body{
 
 
 $color: #111;
-$primary: #FFAB9D;
 
 .decouvrir{
 	
@@ -263,4 +262,44 @@ a{
 	to {
 		left: -10px;
 	}
+}
+
+
+
+
+
+
+/*---------------------------------------------------------*/
+/*CREDITS*/
+
+
+.mention_legale{
+	width:80%;
+	padding-top:5vh;
+
+	a{
+		font-weight:bold;
+	}
+}
+
+
+.back{
+	display:grid;
+	justify-items:center;
+	font-weight:bold;
+	font-family:arial, helvetica, sans-serif;
+	text-transform:uppercase;
+	color:white;
+	padding-top:5vh;
+	
+	
+	h3{
+	transition:0.3s;
+		&:hover{
+			color:black;
+			transition:0.3s;
+		}
+	}
+	
+
 }
