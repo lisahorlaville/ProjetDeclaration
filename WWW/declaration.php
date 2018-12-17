@@ -44,7 +44,6 @@ Attention : Le class "visible" n'est à écrire que sur la toute première page,
 	include_once ('_INC/article4-5-6.php');
 	include_once ("_INC/illustration3.php");
 	include_once ('_INC/article7-8.php');
-	
 	include_once ('_INC/article9-10-11.php');
 	include_once ('_INC/article12-13-14.php');
 	include_once ("_INC/illustration4.php");
